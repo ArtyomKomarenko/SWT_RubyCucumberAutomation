@@ -2,18 +2,12 @@ Given(/^I click on Got it button$/) do
   find_element(id: "button1").click
 end
 
-When(/^I land on Area screen$/) do
-  actual_result = find_element(id: "toolbar").find_element(xpath: "//android.widget.TextView[@text='Area']").text
-  if actual_result != "Area"
-    fail("Expected value is 'Area', but actual value was '#{actual_result}'")
-  end
+And(/^I land on Area screen$/) do
+  text("Area")
 end
 
 Given(/^I land on help popup$/) do
-  actual_result = find_element(id: "alertTitle").text
-  if actual_result != "Help"
-    fail("Expected value is 'Help', but actual value was '#{actual_result}'")
-  end
+  text("Help")
 end
 
 Then(/^I see "([^"]*)" in From header$/) do |value|
