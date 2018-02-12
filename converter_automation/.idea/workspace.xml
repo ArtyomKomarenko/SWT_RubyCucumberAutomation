@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="20faeac1-f5e9-4973-a797-d4a889fa2b73" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/cucumber.yml" afterPath="$PROJECT_DIR$/cucumber.yml" />
-      <change beforePath="$PROJECT_DIR$/features/step_definitions/volume_screen_steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/volume_screen_steps.rb" />
-      <change beforePath="$PROJECT_DIR$/features/support/env.rb" afterPath="$PROJECT_DIR$/features/support/env.rb" />
-      <change beforePath="$PROJECT_DIR$/features/volume_screen.feature" afterPath="$PROJECT_DIR$/features/volume_screen.feature" />
-      <change beforePath="$PROJECT_DIR$/report.html" afterPath="$PROJECT_DIR$/report.html" />
-    </list>
+    <list default="true" id="20faeac1-f5e9-4973-a797-d4a889fa2b73" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -206,18 +200,17 @@
       <workItem from="1518035091364" duration="3434000" />
       <workItem from="1518124539583" duration="1126000" />
       <workItem from="1518126834603" duration="655000" />
-      <workItem from="1518417388895" duration="9211000" />
+      <workItem from="1518417388895" duration="9326000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28306000" />
+    <option name="totallyTimeSpent" value="28421000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1288" y="-8" width="1296" height="1000" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2078125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2078125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293348" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
