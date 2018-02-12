@@ -19,7 +19,7 @@ def select_menu_item(value)
   previous_screen = ""
 
   until (exists {find_element(id: "design_navigation_view").find_element(xpath: "//android.widget.CheckedTextView[@text='#{value}']")}) || (current_screen == previous_screen) do
-    Appium::TouchAction.new.swipe(start_x: 0.5, start_y: 0.8, end_x: 0.5, end_y: 0.2, duration: 500).perform
+    Appium::TouchAction.new.swipe(start_x: 0.5, start_y: 0.8, offset_x: 0, offset_y: -0.6, duration: 500).perform
     previous_screen = current_screen
     current_screen = get_source
   end

@@ -1,5 +1,5 @@
 When(/^I swipe in the menu$/) do
-  action = Appium::TouchAction.new.swipe(start_x: 0.01, start_y: 0.5, end_x: 0.8, end_y: 0.5, duration: 500)
+  action = Appium::TouchAction.new.swipe(start_x: 0.01, start_y: 0.5, offset_x: 0.8, offset_y: 0, duration: 500)
   action.perform
 end
 
