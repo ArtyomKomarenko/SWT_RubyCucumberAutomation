@@ -49,4 +49,4 @@ build-iPhoneSimulator/
 # unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
 .rvmrc
 converter_automation/report.html
-converter_automation/.idea/workspace.xml
+converter_automation/.idea/*
