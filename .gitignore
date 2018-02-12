@@ -9,6 +9,7 @@
 /test/tmp/
 /test/version_tmp/
 /tmp/
+/converter_automation/report.html
 
 # Used by dotenv library to load environment variables.
 # .env
