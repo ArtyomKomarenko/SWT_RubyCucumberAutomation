@@ -18,5 +18,5 @@ After do |scenario|
 end
 
 AfterConfiguration do
-  FileUtils.rm_r("screenshot") if File.directory?("screenshots")
+  FileUtils.rm_r("screenshots") if File.directory?("screenshots")
 end
